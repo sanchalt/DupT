@@ -1,0 +1,14 @@
+{
+    "name": "DupT",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "detect and block duplicate URL",
+    "background": {
+        "service_worker":  "background.js"
+    },
+    "icons": { "48":  "Key.png",
+               "128": "Key.png" },
+    "permissions": [
+      "tabs"
+    ]
+  }
